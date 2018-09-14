@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>allcourse</class>
+ <widget class="QWidget" name="allcourse">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>473</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>100</y>
+     <width>701</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>COURSEID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>OBJECT</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TEACHER</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>TERM</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>ADDRESS</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>PERIOD</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>CREDIT</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>50</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BACK</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>391</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 18pt &quot;Consolas&quot;;</string>
+   </property>
+   <property name="text">
+    <string>ALL COURSES' INFORMATION HERE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
